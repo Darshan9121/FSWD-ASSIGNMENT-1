@@ -1,0 +1,85 @@
+<!-- Task: Build a Personal Portfolio Website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+    <header class="bg-gray-800 text-white p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Darshan Hiragar</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-yellow-400 transition duration-300">About</a></li>
+                    <li><a href="#languages" class="hover:text-yellow-400 transition duration-300">Languages</a></li>
+                    <li><a href="#projects" class="hover:text-yellow-400 transition duration-300">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-400 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="py-12 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4 hover:text-yellow-400 transition duration-300">About Me</h2>
+            <p class="text-gray-400 leading-relaxed">I am a passionate web developer mastering the MERN stack. With expertise in Python, Java, C, C++, and more, I aim to deliver efficient and scalable web solutions.</p>
+        </div>
+    </section>
+
+    <section id="languages" class="py-12 bg-gray-700">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4 hover:text-yellow-400 transition duration-300">Languages & Skills</h2>
+            <ul class="grid grid-cols-2 md:grid-cols-4 gap-6 text-gray-200">
+                <li class="bg-gray-800 p-4 shadow rounded hover:bg-yellow-500 transition duration-300">MERN Stack</li>
+                <li class="bg-gray-800 p-4 shadow rounded hover:bg-yellow-500 transition duration-300">Python</li>
+                <li class="bg-gray-800 p-4 shadow rounded hover:bg-yellow-500 transition duration-300">Java</li>
+                <li class="bg-gray-800 p-4 shadow rounded hover:bg-yellow-500 transition duration-300">C</li>
+                <li class="bg-gray-800 p-4 shadow rounded hover:bg-yellow-500 transition duration-300">C++</li>
+                <li class="bg-gray-800 p-4 shadow rounded hover:bg-yellow-500 transition duration-300">PHP</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="py-12 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4 hover:text-yellow-400 transition duration-300">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="p-6 bg-gray-700 shadow rounded hover:bg-yellow-500 transition duration-300">
+                    <h3 class="text-xl font-bold">Smart Parking System</h3>
+                    <p class="text-gray-300 mt-2">A PHP-based smart parking solution that optimizes parking spaces and enhances user experience.</p>
+                </div>
+                <div class="p-6 bg-gray-700 shadow rounded hover:bg-yellow-500 transition duration-300">
+                    <h3 class="text-xl font-bold">E-commerce Site</h3>
+                    <p class="text-gray-300 mt-2">A full-fledged e-commerce platform with modern features for seamless online shopping.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-12 bg-gray-700">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4 hover:text-yellow-400 transition duration-300">Contact Me</h2>
+            <p class="text-gray-300 mb-6">Feel free to reach out for collaboration or project inquiries!</p>
+            <form action="#" method="post" class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <input type="text" name="name" placeholder="Your Name" class="w-full p-3 rounded border border-gray-500 bg-gray-800 text-gray-200 focus:ring-yellow-500">
+                </div>
+                <div class="mb-4">
+                    <input type="email" name="email" placeholder="Your Email" class="w-full p-3 rounded border border-gray-500 bg-gray-800 text-gray-200 focus:ring-yellow-500">
+                </div>
+                <div class="mb-4">
+                    <textarea name="message" placeholder="Your Message" class="w-full p-3 rounded border border-gray-500 bg-gray-800 text-gray-200 focus:ring-yellow-500" rows="4"></textarea>
+                </div>
+                <button type="submit" class="bg-yellow-500 text-gray-900 px-6 py-3 rounded hover:bg-yellow-600 transition duration-300">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-400 text-center py-4">
+        <p>&copy; 2025 Darshan Hiragar. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
